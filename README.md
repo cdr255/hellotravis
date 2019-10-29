@@ -1,5 +1,6 @@
 <!-- -*-markdown-*- -->
 # HelloTravis
+[![Build Status](https://travis-ci.org/cdr255/hellotravis.svg?branch=master)](https://travis-ci.org/cdr255/hellotravis)
 
 *Testing out TravisCI*
 
