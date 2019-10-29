@@ -1,0 +1,7 @@
+cmake_minimum_required (VERSION 3.0)
+project (HelloTravis)
+SET(HelloTravis_VERSION_MAJOR 1)
+SET(HelloTravis_VERSION_MINOR 0)
+SET(CMAKE_INSTALL_PREFIX "/usr")
+ADD_EXECUTABLE(hello "src/hello.c")
+install (PROGRAMS hello DESTINATION bin)
