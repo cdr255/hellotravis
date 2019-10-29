@@ -9,3 +9,11 @@ compiler:
 addons:
  apt:
   packages: cmake
+
+script:
+ - mkdir -p build
+ - cd build
+ - cmake ..
+ - make
+ - make install
+ 
