@@ -1,0 +1,11 @@
+language: C
+os:
+ - linux
+ 
+compiler:
+ - gcc
+ - clang
+
+addons:
+ apt:
+  packages: cmake
